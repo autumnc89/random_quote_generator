@@ -1,0 +1,54 @@
+body{
+    background-color: #674b7c;
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 64px;
+}
+
+#quote{
+    color: #f47362;
+    font-size: 24px;
+    text-align: center;
+}
+#author-name{
+    color: #f47362;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#buttonContainer{
+    width: fit-content;
+    margin: auto;
+}
+
+#quoteButton{
+    /*background: #f47362;*/
+    /*border: 5px ridge #674b7c86;*/
+    /*color: #141c3a;*/
+    
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#quoteButton:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
